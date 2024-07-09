@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="google-site-verification" content="GoK4tuuI3F90yONsVPrWWvN5bWStMxVTRCLP_anBQ60" />
-	<title>Dashboards | Wanna Relocate?</title>
+	<title>Dashboards | Wanna EU Relocate?</title>
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +46,33 @@
 
 	<link rel="icon" href="images/logo-5.png">
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>	
+    <style>
+        .tableau-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 75%; /* 4:3 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .tableauPlaceholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 
+	<style>
+		#particles-js {
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: -1;
+		}
+	</style>
 
 	</head>
 	<body>
@@ -59,7 +85,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand logo" href="./index.html">Wanna Relocate?</a>
+				<a class="navbar-brand logo" href="./index.html">Wanna EU Relocate?</a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
@@ -74,41 +100,66 @@
 	</nav>
 
 	<div id="particles-js"></div>
+
+
+
 	
-	<div id="about" class="animate-box" style="background-image: url(./images/output-onlinepngtools.png); background-attachment: fixed;	background-color: transparent; 	background-repeat: no-repeat; background-size: auto; background-position: center center; " >
+
+		
+
+	<div id="about" class="animate-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Dashboards</h2>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<h2 style="font-family: monospace ;">"Diagrams:";</h2>
-					<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eum placeat ipsum voluptatibus debitis natus exercitationem cum cumque possimus distinctio? Eos, odit? Itaque quia ratione autem ipsam nesciunt numquam! Eveniet! </p> 
-					<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, sapiente necessitatibus molestiae non tempora soluta dolores eos suscipit tenetur, deleniti eligendi officiis iste corporis inventore nesciunt facilis sed numquam! </p>
-					<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, sapiente necessitatibus molestiae non tempora soluta dolores eos suscipit tenetur, deleniti eligendi officiis iste corporis inventore nesciunt facilis sed numquam! </p>
-					<p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus eaque, sapiente necessitatibus molestiae non tempora soluta dolores eos suscipit tenetur, deleniti eligendi officiis iste corporis inventore nesciunt facilis sed numquam! </p>
+
+			<div class="container">
+				<!-- <h1 class="my-4">Tableau Grid with Bootstrap</h1> -->
+				<div class="row">
+					<div class="col-md-12 mb-4">
+						<h2><b style="font-weight: 500; color: rgb(52, 82, 190);">Criterion 1:</b> Citizen Satisfaction Index</h2>
+						<div class='tableauPlaceholder' id='viz1720464985508' style='position: relative'><noscript><a href='#'><img alt='satisfaction Dash ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sa&#47;satisfactiondash&#47;satisfactionDash&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='satisfactiondash&#47;satisfactionDash' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;sa&#47;satisfactiondash&#47;satisfactionDash&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1720464985508');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>            </div>
+					<div class="col-md-12 mb-4" style="padding-top: 5%;">
+						<h2><b style="font-weight: 500; color: rgb(52, 82, 190);">Criterion 2:</b> Tax and Net Income Proportions</h2>
+
+						<div class="tableau-container">
+							<div class='tableauPlaceholder' id='viz1720465008078' style='position: relative'><noscript><a href='#'><img alt='Income Dash ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;in&#47;incomedash&#47;IncomeDash&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='incomedash&#47;IncomeDash' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;in&#47;incomedash&#47;IncomeDash&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1720465008078');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                </div>
+					</div>
+					<div class="col-md-12 mb-4" style="padding-top: 5%;">
+						<h2><b style="font-weight: 500; color: rgb(52, 82, 190);">Criterion 3:</b> Internet Speed</h2>
+
+						<div class="tableau-container">
+							<div class='tableauPlaceholder' id='viz1720465027106' style='position: relative;'><noscript><a href='#'><img alt='Internet Dash ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5R&#47;5RC7BH3TT&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;5RC7BH3TT' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5R&#47;5RC7BH3TT&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1720465027106');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                </div>
+					</div>
+					<div class="col-md-12 mb-4" style="padding-top: 5%;">
+						<h2><b style="font-weight: 500; color: rgb(52, 82, 190);">Criterion 4:</b> Living Costs Comparison</h2>
+
+						<div class="tableau-container">
+							<div class='tableauPlaceholder' id='viz1720465048222' style='position: relative'><noscript><a href='#'><img alt='comparison dash ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;comparisondash&#47;comparisondash&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='comparisondash&#47;comparisondash' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;co&#47;comparisondash&#47;comparisondash&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1720465048222');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                </div>
+					</div>
 				</div>
-				<br>
-				<hr style="width: 100%; ">
-				<br>
-				<div class="text-center" style="color: #686868;"></div>				
 			</div>
-		</div>
+				</div>
 	</div>
+
+
+
+
+
 
 	<div id="fh5co-footer">
 		<div class="container">
 			<div class="row ">
 				<div class="col-md-12 text-center">
-					<p> <i class="far fa-copyright"></i> Data Viz 2024.</p>
+					<p> <i class="far fa-copyright"></i> Data Visualization  2024<br>
+						Department of Informatics and Telecommunications - UoA</p>
 				</div>
 			</div>
 		</div>
 	</div>
-
-
+	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
